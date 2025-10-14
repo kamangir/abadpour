@@ -1,5 +1,5 @@
 from blueness import module
-from blue_options.help.functions import help_main
+from bluer_options.help.functions import help_main
 
 from abadpour import NAME
 from abadpour.help.functions import help_functions

@@ -4,10 +4,16 @@ ICON = "📜"
 
 DESCRIPTION = f"{ICON} Arash Abadpour's CV."
 
-VERSION = "6.107.1"
+VERSION = "7.11.1"
 
-ALIAS = NAME
+REPO_NAME = NAME
 
 MARQUEE = (
     "https://github.com/kamangir/assets/blob/main/abadpour/2020-11-21.jpg?raw=true"
 )
+
+ALIAS = NAME
+
+
+def fullname() -> str:
+    return f"{NAME}-{VERSION}"

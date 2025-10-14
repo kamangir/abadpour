@@ -1,22 +1,16 @@
 # 📜 abadpour
 
-📜 `abadpour` is an [`abcli`](https://github.com/kamangir/awesome-bash-cli) plugin for my CV/resume, in two versions: [compact](./pdf/arash-abadpour-resume.pdf) and [full](./pdf/arash-abadpour-resume-full.pdf).
+📜 `abadpour` is an [`@ai`](https://github.com/kamangir/bluer-ai) plugin for my CV/resume, in two versions: [compact](./pdf/arash-abadpour-resume.pdf) and [full](./pdf/arash-abadpour-resume-full.pdf).
+
+## installation
 
 ```bash
 pip install abadpour
 ```
 
-```mermaid
-graph LR
-    build["abadpour build push"]
-    clean["abadpour clean"]
-    pdf["pdf"]:::folder
+# aliases
 
-    build --> pdf
-    clean --> pdf
-
-    classDef folder fill:#999,stroke:#333,stroke-width:2px;
-```
+[abadpour](./abadpour/docs/abadpour.md).
 
 ---
 

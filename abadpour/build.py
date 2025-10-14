@@ -1,4 +1,5 @@
-from blue_objects import file
+from bluer_objects import file
+
 from abadpour import VERSION
 
 
