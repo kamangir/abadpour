@@ -10,7 +10,7 @@ pip install abadpour
 
 # aliases
 
-[abadpour](./bluer_plugin/docs/abadpour.md).
+[abadpour](./abadpour/docs/abadpour.md).
 
 ---
 
