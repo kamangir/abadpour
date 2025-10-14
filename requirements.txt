@@ -1,4 +1,5 @@
-abcli
+bluer_ai
+
 boto3
 numpy
 pymysql
