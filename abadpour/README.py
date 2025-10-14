@@ -23,6 +23,11 @@ def build() -> bool:
             ),
         )
         for readme in [
-            {"path": "./docs/abadpour.md"},
+            {
+                "path": "../",
+            },
+            {
+                "path": "./docs/abadpour.md",
+            },
         ]
     )

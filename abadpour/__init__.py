@@ -4,7 +4,7 @@ ICON = "📜"
 
 DESCRIPTION = f"{ICON} Arash Abadpour's CV."
 
-VERSION = "7.12.1"
+VERSION = "7.15.1"
 
 REPO_NAME = NAME
 
