@@ -4,7 +4,7 @@ ICON = "📜"
 
 DESCRIPTION = f"{ICON} Arash Abadpour's CV."
 
-VERSION = "6.116.1"
+VERSION = "6.117.1"
 
 ALIAS = NAME
 
