@@ -1,7 +1,7 @@
 from blueness.argparse.generic import main
 
 from abadpour import NAME, VERSION, DESCRIPTION, ICON
-from abadpour.build import build
+from abadpour import build, README
 from abadpour.logger import logger
 
 main(
@@ -11,7 +11,8 @@ main(
     VERSION=VERSION,
     main_filename=__file__,
     tasks={
-        "build": lambda _: build(),
+        "build": lambda _: build.build(),
+        "build_README": lambda _: README.build(),
     },
     logger=logger,
 )

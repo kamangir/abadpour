@@ -1,34 +1,10 @@
-import os
+from bluer_objects import file
 
-from bluer_objects import file, README
-from bluer_options.help.functions import get_help
-
-from abadpour import NAME, VERSION, ICON, REPO_NAME
-from abadpour.help.functions import help_functions
+from abadpour import VERSION
 
 
 def build() -> bool:
-    if not file.save_text(
+    return file.save_text(
         "_revision.tex",
         ["\\vspace{0.5cm}revision\\space" + VERSION + "\\space-\\space\\today"],
-    ):
-        return False
-
-    return all(
-        README.build(
-            items=readme.get("items", []),
-            path=os.path.join(file.path(__file__), readme["path"]),
-            ICON=ICON,
-            NAME=NAME,
-            VERSION=VERSION,
-            REPO_NAME=REPO_NAME,
-            help_function=lambda tokens: get_help(
-                tokens,
-                help_functions,
-                mono=True,
-            ),
-        )
-        for readme in [
-            {"path": "./docs/abadpour.md"},
-        ]
     )
