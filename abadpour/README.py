@@ -7,9 +7,10 @@ from abadpour import NAME, VERSION, ICON, REPO_NAME
 from abadpour.help.functions import help_functions
 
 
-def build() -> bool:
+def build(args) -> bool:
     return all(
         README.build(
+            args=args,
             items=readme.get("items", []),
             path=os.path.join(file.path(__file__), readme["path"]),
             ICON=ICON,
