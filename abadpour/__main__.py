@@ -12,7 +12,7 @@ main(
     main_filename=__file__,
     tasks={
         "build": lambda _: build.build(),
-        "build_README": lambda _: README.build(),
+        "build_README": README.build,
     },
     logger=logger,
 )
