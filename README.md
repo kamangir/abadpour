@@ -17,4 +17,4 @@ pip install abadpour
 
 [![pylint](https://github.com/kamangir/abadpour/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/abadpour/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/abadpour/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/abadpour/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/abadpour/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/abadpour/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/abadpour.svg)](https://pypi.org/project/abadpour/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/abadpour)](https://pypistats.org/packages/abadpour)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 📜 [`abadpour-7.22.1`](https://github.com/kamangir/abadpour).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/docs/bluer-README), based on 📜 [`abadpour-7.23.1`](https://github.com/kamangir/abadpour).
